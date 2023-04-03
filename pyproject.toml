@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "omv-sql-garbage-collector"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "omv_sql_garbage_collector"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+gunicorn = "^20.1.0"
+geopandas = "^0.12.2"
+rasterio = "^1.3.6"
+rioxarray = "^0.14.0"
+matplotlib = "^3.7.1"
+numpy = "^1.24.2"
+xarray = "^2023.3.0"
+shapely = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

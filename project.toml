@@ -1,0 +1,10 @@
+[project]
+id = "io.buildpacks.app"
+version = "0.1"
+
+[build]
+include = [
+    "main.py",
+    "version.py",
+    "requirements.txt"
+]
