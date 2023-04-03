@@ -1,1 +1,1 @@
-# geospatial_coding_task
+# omv-sql-garbage-collector
